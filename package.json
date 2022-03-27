@@ -1,0 +1,30 @@
+{
+  "name": "rxjs-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaKulikovskikh/RxJS-server.git"
+  },
+  "author": "Anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaKulikovskikh/RxJS-server/issues"
+  },
+  "homepage": "https://github.com/AnnaKulikovskikh/RxJS-server#readme",
+  "dependencies": {
+    "forever": "^0.14.2",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
